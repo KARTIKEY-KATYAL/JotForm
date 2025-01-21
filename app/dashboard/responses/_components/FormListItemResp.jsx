@@ -47,7 +47,7 @@ function FormListItemResp({jsonForm,formRecord}) {
         <h2 className='text-sm text-gray-500 font-bold '>{jsonForm?.formHeading}</h2>
         <hr className='my-4'></hr>
         <div className='flex justify-between items-center font-bold'>
-            <h2 className='text-sm'><strong>45</strong> Responses</h2>
+            <h2 className='text-sm text-white'><strong>45</strong> Responses</h2>
             <Button className="" size="sm"
             onClick={()=>ExportData()}
             disabled={loading}
